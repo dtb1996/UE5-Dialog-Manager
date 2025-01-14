@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Dialog Manager",
+	"Description": "Framework for a dialog system",
+	"Category": "Other",
+	"CreatedBy": "Dillon Bellefeuille",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DialogManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
