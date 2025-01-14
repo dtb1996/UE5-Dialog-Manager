@@ -38,7 +38,6 @@ The UE5-Dialog-Manager Plugin is a flexible dialog system.
 [bitgamingstudio@gmail.com](mailto:bitgamingstudio@gmail.com)
 
 ## Attributions
-Example dialog audio clips created with [ElevenLabs](https://elevenlabs.io/)
-Not to be used commercially.
+Example dialog audio clips created with [ElevenLabs](https://elevenlabs.io/) - not to be used commercially
 
 Character portraits designed by [Freepik](www.freepik.com)
