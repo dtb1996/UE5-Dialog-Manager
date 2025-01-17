@@ -40,6 +40,10 @@ void UDialogWidget::GetNextLine(int32 LineId)
 		SpeakerNameText->SetText(FText::FromString(SpeakerName));
 
 		DialogText->SetText(DialogLineInfo.DialogLine.DialogText);
+		if (!DialogText->IsVisible())
+		{
+			DialogText->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
+		}
 
 		if (DialogLineInfo.AudioClip)
 		{
@@ -98,6 +102,7 @@ void UDialogWidget::OnAdvanceButtonClicked()
 void UDialogWidget::DisplayPlayerResponses(const TArray<FDialogLine>& Responses)
 {
 	DialogText->SetText(FText());
+	DialogText->SetVisibility(ESlateVisibility::Collapsed);
 	
 	if (!PlayerResponseClass)
 	{
